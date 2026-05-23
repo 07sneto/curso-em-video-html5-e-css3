@@ -1,0 +1,58 @@
+Capítulo 3 - Aula 1
+A diferença entre HTML, CSS e JavaScript
+
+Errado: "Eu programa em HTML e CSS"
+Certo: "Eu desenvolvo em HTML e CSS"
+
+HTML > HyperText Markup Language
+ > Conteúdo
+  > Textos
+  > Imagens
+  > Vídeos
+  > Tabelas
+
+CSS > Cascading Style Sheets
+ > Design
+  > Cores
+  > Sombras
+  > Tamanhos
+  > Posicionamento
+
+JavaScript
+ > Interatividade
+  > Menus
+  > Animações
+  > Popups
+  > Validações
+
+
+
+Conteúdo em HTML
+ Exemplo
+  <h1> (abertura de tag) Exemplo de título (Conteúdo </h1> (Fechamento de tag)
+
+<p> Exemplo de Parágrafo <p>
+
+Estilo em CSS
+ Exemplo
+  h1 {
+      font-family: Arial; (Declaração)
+      color: (Propiedade) blue; (Valor)
+      font-size: 10pt;
+     }
+
+
+
+Estrutura básica de documento HTML
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+     <head> (Configurações)
+         <meta charset="UTF-8
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+     </head>
+     <body> (Corpo)
+         <h1>Olá, Mundo!</h1>
+     </body>
+ </html>

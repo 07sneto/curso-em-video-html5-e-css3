@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    
+    <H1>Imagem Dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <!-- picture: elemento que permite diferentes imagens para diferentes tamanhos
+         source: define as opções de imagem disponíveis
+         media: consulta CSS que determina quando cada imagem deve ser usada.
+            exemplo: (max-width: 750px) significa que a imagem será usada quando a largura da tela for de até 750 pixels.
+         type: tipo do arquivo de imagem (opcional, mas recomendado para melhor desempenho)
+         srcset: caminho da imagem que será carregada quando a condição de media for atingida -->
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+
+</body>
+</html>

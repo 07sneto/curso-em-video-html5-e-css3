@@ -1,0 +1,23 @@
+Capítulo 1 - Aula 1
+O que vamos aprender no módulo 01
+
+
+Primeiros passos HTML+CSS
+
+Conceitos básicos, preparação do ambiente semântica da HTML5, textos, títulos, ligações, multimídias, estilos.
+
+"O que vou precisar?"
+
+> Foco!
+> Exercitar!
+> Anotar!
+
+ATENÇÃO
+
+> NÃO assista o curso como se estivesse assistindo Netflix. Você não precisa maratonar igual uma série.
+
+> Sempre praticar o que estiver aprendendo no curso.
+
+> NÃO adianta ter pressa.
+
+> Criar uma rotina para assistir o curso.

@@ -1,0 +1,12 @@
+Capítulo 6 - Aula 2
+Formato de Imagens
+
+GIMP - GNU IMAGE MANIPULATION PROGRAM
+https://www.gimp.org/
+
+"Quais formatos de imagem se usa na Web?"
+> jpeg
+> png
+
+"Qual utilizar?"
+> Depende

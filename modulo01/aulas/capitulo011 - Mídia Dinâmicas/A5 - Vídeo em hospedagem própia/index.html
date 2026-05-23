@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <!--
+      - <video>: elemento HTML que insere um player de vídeo na página.
+        - width="500px": define a largura do player na página (apenas apresentação; o arquivo original mantém sua resolução).
+        - controls: atributo booleano que exibe os controles nativos (play, pause, barra de progresso, volume).
+      - <source src="...">: especifica o caminho do arquivo de vídeo que o navegador deve carregar.
+        - type="video/...": informa o MIME type do arquivo para ajudar o navegador a escolher o source compatível.
+
+      Custo de hospedar localmente:
+      - Armazenamento: ocupa espaço no disco do servidor (ex.: arquivos de vídeo grandes podem ser dezenas ou centenas de MB).
+      - Largura de banda (transferência): cada reprodução consome tráfego; muitos acessos podem aumentar o uso de dados e gerar cobranças do provedor.
+      - Manutenção e desempenho: precisa de backups, segurança e possivelmente um servidor mais potente. Para reduzir custos e melhorar entrega, considere comprimir o vídeo, usar formatos eficientes (ex.: WebM), streaming adaptativo ou um CDN/serviço especializado.
+    -->
+
+    <video width="500px" controls>
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.m4v" type="video/mp4">
+        <source src="midia/video.webm" type="video/webm">
+        <source src="midia/video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reoprodução de vídeos.</p>
+    </video>
+
+</body>
+</html>

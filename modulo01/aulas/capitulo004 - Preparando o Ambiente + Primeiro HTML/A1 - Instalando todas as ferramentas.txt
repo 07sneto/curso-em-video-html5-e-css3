@@ -1,0 +1,8 @@
+Capítulo 4 - A1
+Instalando todas as ferramentas
+
+> Navegador
+> Visual Studio Code (VS Code)
+ > Word Wrap: On
+ > Font-size: 
+ > Auto-save: On

@@ -1,0 +1,16 @@
+Capítulo 3 - Aula 2
+Front-end, Back-end e Full stack
+
+
+Tecnologias client-side > Front-end
+ > Linguagens: HTML, CSS, JavaScript
+
+Tecnologias server-side > Back-end
+ > Linguagens: PHP, C#, Python, Ruby, Java
+
+Exemplo:
+client-size > server-size / PHP > banco de dados > PHP > HTML > client-size
+
+
+
+Front-end + Back-end = Fullstack

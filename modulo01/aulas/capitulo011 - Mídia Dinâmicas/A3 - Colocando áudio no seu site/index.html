@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    
+    <H1>Reproduzindo Áudio</H1>
+    <p>Vamos aprender a reporudizr áudios em HTML5.</p>
+
+    <!-- EXPLICAÇÃO DOS ATRIBUTOS:
+    - audio: elemento para reproduzir arquivo de áudio
+        - preload="metadata": carrega metadados (duração, etc) antes de tocar
+            - preload="auto": carrega o áudio completamente antes de tocar
+            - preload="none": não carrega o áudio até que o usuário interaja
+        - autoplay: inicia a reprodução automaticamente quando a página carrega
+        - controls: exibe os controles de reprodução (play, pause, volume, etc)
+        - loop: reproduz o áudio repetidamente ao atingir o final
+    - source: define a fonte do arquivo de áudio a ser reproduzido
+        - o audio a ser reproduzido será o primeiro formato suportado pelo navegador
+    - type: especifica o formato MIME do arquivo (audio/mpeg, audio/ogg, audio/wav, etc) -->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir este áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3.</a>
+        </p>
+    </audio>
+
+</body>
+</html>

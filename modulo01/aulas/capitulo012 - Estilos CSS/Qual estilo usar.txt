@@ -1,0 +1,5 @@
+Qual estilo usar?
+
+- Evite utilizar o INLINE a todo custo.
+- O Interno, só coloque para estilos pequenos.
+- Use o externo sem moderação, principalmente para sites grandes.

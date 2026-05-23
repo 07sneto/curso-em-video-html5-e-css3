@@ -1,0 +1,22 @@
+Capítulo 2 - Aula 1
+Como a Internet funciona
+
+"Como o computador vê os dados?" - Representação de Dados
+> Dígitos Binários 0 e 1 (bit)
+> 1 Byte é a sequencia de 8 bits
+
+Os múltiplos do byte
+> 1024 bytes = 1 KB
+> 1024 KB = 1 MB
+> 1024 MB = 1 GB
+> 1024 GB = 1 TB...
+
+MB > MegaBytes (armazenamento)
+Mb > Megabits (transmissão)
+
+"Como nos conectamos a Internet?"
+Cliente (Computador) > Aparelho > Internet
+Um Modem faz modulação & demodulação de Sinais 
+
+"Como acessamos servidores?"
+Os sites ficam armazenados em Servidores
