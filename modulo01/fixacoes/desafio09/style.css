@@ -1,0 +1,11 @@
+*{
+    background-color: #181919;
+}
+
+body {
+    text-align: center;
+}
+
+h1, p, a{
+    color: white;
+}
